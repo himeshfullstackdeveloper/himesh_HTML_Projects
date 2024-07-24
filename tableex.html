@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-style: solid;
+            text-align: center;
+            width: 500px;
+        }
+        .row{
+            border-style: solid;
+            text-align: center;
+            border-width: 2px;
+            height: 10vh;
+            width: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <table class="my-table" style="background-color: lightslategray;" >
+    <Caption>
+        DATA
+    </Caption>
+    <!--ROW 1-->
+    <tr class="row">
+        <th class="row" colspan="1">A</th>
+        <th class="row" colspan="1">a</th>
+    </tr>
+    </table>
+    <table>
+        <tr>
+            <th class="row" colspan="2">C</th>
+            <th class="row" rowspan="2">D</th>
+        </tr>
+        <tr>
+            <td class="row">E</td>
+            <td class="row">F</td>
+        </tr>
+    </table>
+</body>
+</html>
