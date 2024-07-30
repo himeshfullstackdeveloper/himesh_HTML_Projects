@@ -3,13 +3,20 @@
 
 <head>
     <title>Radio Checkbox</title>
+    <style>
+        .h1{
+            text-align: center;
+            background-color: chocolate;
+            font-size: 32px;
+        }
+    </style>
 </head>
 
 <body>
     <form action="exachbox.html">
     <fieldset style="background-color: chocolate;">
-        <legend>Checkbox</legend>
-        <!--Full Name Innput-->
+        <h1>Form</h1>
+        <!--Full Name Input-->
         <label for="Full Name">First Name</label>
         <input type="text" id="First Name" />
         <br>
@@ -26,7 +33,7 @@
         <br> 
         <!--Password Input-->
         <label for="Password">Password</label>
-        <input type="range" id="Password">
+        <input type="text" id="Password">
         <!--gender Input-->
         <h2>Gender</h2>
         <label for="gender">male</label>
@@ -49,24 +56,24 @@
         <input type="checkbox" id="checkbox" />
         <!--radio input-->
         <h2>Select your education</h2>
-        <label for="radio">Educated</label>
         <input type="radio" id="gender" name="educational" />
+        <label for="radio">Educated</label>
         <br>
         <br>
+        <input type="radio" id="gender" />
         <label for="gender">Graduation</label>
-        <input type="radio" id="gender" />
         <br>
         <br>
+        <input type="radio" id="gender"/>
         <label for="gender">Jr.College</label>
+        <br>
+        <br>
         <input type="radio" id="gender" />
-        <br>
-        <br>
         <label for="gender">PHD</label>
+        <br>
+        <br>
         <input type="radio" id="gender" />
-        <br>
-        <br>
         <label for="education">post graduation</label>
-        <input type="radio" id="gender" />
         <br>
         <br>
         <!--Select optgroup input-->
@@ -79,7 +86,9 @@
         </select>
        <br>
        <br>
-          <textarea name="Tar" placeholder="Get your Feedback Here" ></textarea>
+          <textarea name="Tar" placeholder="Get your Feedback Here" rows="4" cols="50"></textarea>
+          <br>
+          <br>
         <!--submit Button Input-->
         <a href="exachbox.html"> <button>Submit</button> </a>
         <br>
